@@ -1,7 +1,6 @@
 from django.shortcuts import render,redirect
 from .models import content,demo_book
-from PIL import Image
-from resizeimage import resizeimage
+
 from pathlib import Path
 import os
 
